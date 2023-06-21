@@ -183,3 +183,58 @@ nav > .nav-start > ul {
   left: -120px;
   transform: rotate(90deg);
 }
+
+.home-section-3 {
+  background-color: var(--primary-midnight-green);
+  padding: 10% 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.stories-container {
+  display: flex;
+  padding-top: 10rem;
+}
+
+.stories {
+  padding: 1rem 2rem;
+  position: relative;
+  text-align: center;
+}
+.stories > .body2 {
+  padding-bottom: 2rem;
+  opacity: 0.8;
+}
+.stories > h3 {
+  padding-bottom: 1rem;
+  color: var(--secondary-rapture-blue);
+}
+
+.stories > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-rapture-blue);
+}
+
+.quotes {
+  position: absolute;
+  top: -20px;
+  left: 40%;
+  border: none !important;
+  border-radius: 0.1rem !important;
+}
+
+.bg-ptn-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-ptn-6 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

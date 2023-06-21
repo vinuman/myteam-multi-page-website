@@ -22,11 +22,16 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1.large {
   font-family: "Livvic", sans-serif;
   font-weight: bold;
   font-size: 100px;
   line-height: 100px;
+  color: #fff;
 }
 
 p.body1 {
@@ -34,6 +39,7 @@ p.body1 {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+  color: #fff;
 }
 
 h1.small {
@@ -41,6 +47,7 @@ h1.small {
   font-weight: bold;
   font-size: 64px;
   line-height: 56px;
+  color: #fff;
 }
 
 p.body2 {
@@ -48,6 +55,7 @@ p.body2 {
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
+  color: #fff;
 }
 
 h2 {
@@ -55,6 +63,7 @@ h2 {
   font-weight: bold;
   font-size: 48px;
   line-height: 48px;
+  color: #fff;
 }
 
 h3 {
@@ -62,6 +71,7 @@ h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
+  color: #fff;
 }
 
 nav {
@@ -115,12 +125,8 @@ nav > .nav-start > ul {
   background-color: var(--primary-midnight-green);
 }
 
-.home-section-1 > h1 {
-  color: #fff;
-}
 .home-section-1 > p {
   width: 40%;
-  color: #fff;
 }
 
 .bg-ptn-1 {
@@ -131,4 +137,49 @@ nav > .nav-start > ul {
   position: absolute;
   bottom: 20%;
   right: 10%;
+}
+
+.home-section-2 {
+  padding: 10%;
+  background-color: var(--sacramento-state-green);
+  display: flex;
+  position: relative;
+}
+
+.home-section-2-right > .item {
+  display: flex;
+  padding: 5%;
+}
+
+.home-section-2-right > .item > .item-right {
+  padding-left: 2rem;
+}
+
+.home-section-2-right > .item > .item-right .body1 {
+  color: var(--primary-light-coral);
+  padding-bottom: 0.5rem;
+}
+
+.home-section-2-right > .item > .item-right .body2 {
+  opacity: 0.5;
+}
+
+.home-section-2-left {
+  width: 80%;
+}
+
+.home-section-2-left > h2 {
+  line-height: 8rem;
+}
+
+.bg-ptn-3 {
+  position: absolute;
+  right: -100px;
+  bottom: 0;
+}
+
+.bg-ptn-4 {
+  position: absolute;
+  left: -120px;
+  transform: rotate(90deg);
 }

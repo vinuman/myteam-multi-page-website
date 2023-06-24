@@ -318,3 +318,103 @@ address > .body2 {
   opacity: 0.7;
   font-weight: lighter;
 }
+
+.about-section-1 {
+  padding: 5% 10%;
+  background-color: var(--primary-midnight-green);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.about-section-1 > .body1 {
+  width: 75rem;
+}
+
+.about-section-1 > img {
+  position: absolute;
+  right: -100px;
+  bottom: 0;
+}
+
+.about-section-2 {
+  padding: 10% 10%;
+  background-color: var(--secondary-deep-jungle-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section-2 > h2 {
+  padding-bottom: 4rem;
+}
+
+.cards-container {
+  background-color: var(--secondary-deep-jungle-green);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  position: relative;
+}
+
+.card {
+  padding: 2rem 10rem;
+  width: 35rem;
+  height: 25rem;
+  background-color: var(--sacramento-state-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .card-content > img {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--secondary-rapture-blue);
+  margin-bottom: 2rem;
+}
+
+.card .card-content > .body2 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+
+.card .card-content > .body1 {
+  color: var(--secondary-rapture-blue);
+}
+
+.card-btn {
+  position: absolute;
+  left: 15rem;
+  right: 0;
+  bottom: -25px;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+  background-color: var(--primary-light-coral);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: var(--secondary-rapture-blue);
+}
+
+.cards-container > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -31,7 +31,10 @@ const Home = () => {
       </section>
       <section className="home-section-2">
         <div className="home-section-2-left">
-          <h2>Build & manage distributed teams like no one else.</h2>
+          <h2>
+            <span style={{ color: "#F67E7E" }}>Build</span> & manage distributed
+            teams like no one else.
+          </h2>
         </div>
         <div className="home-section-2-right">
           <div className="item">

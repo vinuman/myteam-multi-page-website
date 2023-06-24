@@ -6,7 +6,9 @@ const Contactcomponent = () => {
     <div className="ready">
       <img src={bgpattern} alt="bg pattern"></img>
       <div>
-        <h2>Ready to get started?</h2>
+        <h2>
+          <span style={{ color: "#fff" }}>Ready</span> to get started?
+        </h2>
       </div>
       <div>
         <button className="btn2">Contact Us</button>

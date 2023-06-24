@@ -12,6 +12,7 @@ import ayisha from "./assets/avatar-aiysha.jpg";
 import arthur from "./assets/avatar-arthur.jpg";
 import quotes from "./assets/icon-quotes.svg";
 import Contactcomponent from "./Contactcomponenet";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -128,6 +129,7 @@ const Home = () => {
         </div>
       </section>
       <Contactcomponent />
+      <Footer />
     </>
   );
 };

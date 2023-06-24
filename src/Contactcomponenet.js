@@ -1,4 +1,5 @@
 import bgpattern from "./assets/bg-pattern-home-6-about-5.svg";
+import { Link } from "react-router-dom";
 
 const Contactcomponent = () => {
   return (

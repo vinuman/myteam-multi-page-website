@@ -11,6 +11,7 @@ import kady from "./assets/avatar-kady.jpg";
 import ayisha from "./assets/avatar-aiysha.jpg";
 import arthur from "./assets/avatar-arthur.jpg";
 import quotes from "./assets/icon-quotes.svg";
+import Contactcomponent from "./Contactcomponenet";
 
 const Home = () => {
   return (
@@ -126,6 +127,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Contactcomponent />
     </>
   );
 };

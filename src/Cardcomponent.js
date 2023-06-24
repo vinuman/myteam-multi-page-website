@@ -37,7 +37,7 @@ const Cardcomponent = ({ imageSrc, name, designation, quote }) => {
               </p>
               <div
                 style={{
-                  width: "100%",
+                  width: "80%",
                   display: "flex",
                   justifyContent: "space-around",
                 }}

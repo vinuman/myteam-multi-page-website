@@ -1,5 +1,7 @@
 import bgpattern1 from "./assets/bg-pattern-about-1-mobile-nav-1.svg";
 import bgpattern2 from "./assets/bg-pattern-home-6-about-5.svg";
+import bgpattern3 from "./assets/bg-pattern-about-2-contact-1.svg";
+import bgpatter4 from "./assets/bg-pattern-home-4-about-3.svg";
 import Cardcomponent from "./Cardcomponent";
 import nikita from "./assets/avatar-nikita.jpg";
 import cristian from "./assets/avatar-christian.jpg";
@@ -7,6 +9,13 @@ import crux from "./assets/avatar-cruz.jpg";
 import drake from "./assets/avatar-drake.jpg";
 import griffin from "./assets/avatar-griffin.jpg";
 import aden from "./assets/avatar-aden.jpg";
+import verge from "./assets/logo-the-verge.png";
+import jakarta from "./assets/logo-jakarta-post.png";
+import guradian from "./assets/logo-the-guardian.png";
+import techradar from "./assets/logo-tech-radar.png";
+import gadgets from "./assets/logo-gadgets-now.png";
+import Contactcomponent from "./Contactcomponenet";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -26,6 +35,8 @@ const About = () => {
         </p>
       </section>
       <section className="about-section-2">
+        <img className="bg-ptn-5" src={bgpattern3}></img>
+        <img className="bg-ptn-2" src={bgpatter4}></img>
         <h2>Meet the directors</h2>
         <div className="cards-container">
           <img src={bgpattern2}></img>
@@ -67,6 +78,18 @@ const About = () => {
           />
         </div>
       </section>
+      <section className="about-section-3">
+        <h2>Some of our clients</h2>
+        <div className="client-list">
+          <img src={verge} alt="logo"></img>
+          <img src={jakarta} alt="logo"></img>
+          <img src={guradian} alt="logo"></img>
+          <img src={techradar} alt="logo"></img>
+          <img src={gadgets} alt="logo"></img>
+        </div>
+      </section>
+      <Contactcomponent />
+      <Footer />
     </>
   );
 };

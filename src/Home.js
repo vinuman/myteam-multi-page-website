@@ -6,7 +6,7 @@ import bgpattern5 from "./assets/bg-pattern-home-5.svg";
 import personIcon from "./assets/icon-person.svg";
 import cogIcon from "./assets/icon-cog.svg";
 import chartIcon from "./assets/icon-chart.svg";
-import hamburger from "./assets/icon-hamburger.svg";
+
 import kady from "./assets/avatar-kady.jpg";
 import ayisha from "./assets/avatar-aiysha.jpg";
 import arthur from "./assets/avatar-arthur.jpg";

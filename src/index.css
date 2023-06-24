@@ -343,6 +343,7 @@ address > .body2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .about-section-2 > h2 {
@@ -380,7 +381,7 @@ address > .body2 {
   width: 9.6rem;
   height: 9.6rem;
   border-radius: 50%;
-  border: 1px solid var(--secondary-rapture-blue);
+  border: 2px solid var(--secondary-rapture-blue);
   margin-bottom: 2rem;
 }
 
@@ -417,4 +418,26 @@ address > .body2 {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.about-section-3 {
+  background-color: var(--sacramento-state-green);
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section-3 > h2 {
+  text-align: center;
+  padding-bottom: 12rem;
+}
+
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-list > img {
+  width: 15rem;
+  height: 4.6rem;
 }

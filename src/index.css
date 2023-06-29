@@ -441,3 +441,20 @@ address > .body2 {
   width: 15rem;
   height: 4.6rem;
 }
+
+.contact {
+  background-color: var(--primary-midnight-green);
+  padding: 5% 10%;
+}
+
+.contact-left > h1 {
+  padding-bottom: 4rem;
+}
+.contact-left > h4 {
+  padding-bottom: 4rem;
+}
+
+label {
+  position: absolute;
+  left: -9999px;
+}
